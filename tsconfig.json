@@ -13,6 +13,9 @@
     // импортировать пакеты как import path from 'path' вместо import * as path from ...
     "esModuleInterop": true,
     "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    }
   },
   "ts-node": {
     "compilerOptions": {
