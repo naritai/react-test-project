@@ -1,6 +1,6 @@
-import { classNames } from 'shared/lib/classNames/classNames'
-import { AppLink } from 'shared/ui/AppLink/AppLink'
-import cls from './Navbar.module.scss'
+import { classNames } from 'shared/lib/classNames/classNames';
+import { AppLink } from 'shared/ui/AppLink/AppLink';
+import cls from './Navbar.module.scss';
 
 interface NavbarProps {
   className?: string
@@ -18,5 +18,5 @@ export function Navbar ({ className }: NavbarProps): JSX.Element {
         </li>
       </ul>
     </nav>
-  )
+  );
 }

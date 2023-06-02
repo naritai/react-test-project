@@ -26,5 +26,10 @@
         "react"
     ],
     "rules": {
+        "space-before-function-paren": "off",
+        "@typescript-eslint/space-before-function-paren": "off",
+        "semi": ["error", "always", { "omitLastInOneLineBlock": false}],
+        "@typescript-eslint/semi": "off",
+        "@typescript-eslint/member-delimiter-style": "off"
     }
 }
