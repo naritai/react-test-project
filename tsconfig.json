@@ -7,7 +7,7 @@
     "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "node",
-
+    "strictNullChecks": true,
     // работаем с пакетами commonjs как c es modules (фикс различий ES modules spec & TS spec)
     // этот флаг автоматически включает allowSyntheticDefaultImports, кот. позволяет
     // импортировать пакеты как import path from 'path' вместо import * as path from ...

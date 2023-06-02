@@ -1,12 +1,12 @@
-import { classNames } from "shared/lib/classNames/classNames";
-import { AppLink } from "shared/ui/AppLink/AppLink";
-import cls from './Navbar.module.scss';
+import { classNames } from 'shared/lib/classNames/classNames'
+import { AppLink } from 'shared/ui/AppLink/AppLink'
+import cls from './Navbar.module.scss'
 
 interface NavbarProps {
-  className?: string;
+  className?: string
 }
 
-export function Navbar({ className }: NavbarProps) {
+export function Navbar ({ className }: NavbarProps): JSX.Element {
   return (
     <nav className={classNames(cls.navbar, {}, [className])}>
       <ul className={cls.links}>

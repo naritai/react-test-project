@@ -1,13 +1,13 @@
-import { useTheme } from './providers/ThemeProvider/lib/useTheme';
-import { classNames } from 'shared/lib/classNames/classNames';
-import { AppRouter } from './providers/router';
-import { Navbar } from 'widgets/Navbar';
-import { Sidebar } from 'widgets/Sidebar';
-import { Suspense } from 'react';
-import './styles/index.scss';
+import { useTheme } from './providers/ThemeProvider/lib/useTheme'
+import { classNames } from 'shared/lib/classNames/classNames'
+import { AppRouter } from './providers/router'
+import { Navbar } from 'widgets/Navbar'
+import { Sidebar } from 'widgets/Sidebar'
+import { Suspense } from 'react'
+import './styles/index.scss'
 
-export function App() {
-  const { theme } = useTheme();
+export function App (): JSX.Element {
+  const { theme } = useTheme()
 
   return (
     <div className={classNames('app', {}, [theme])}>
